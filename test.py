@@ -1,9 +1,9 @@
-def test_1(value, corect_value):
+def test_1(value, correct_value) -> str:
     """
-        This function is for testing
+    This function is for testing
     """
     result = 'Failed'
-    if value == corect_value:
+    if value == correct_value:
         result = 'Passed'
 
     return result
