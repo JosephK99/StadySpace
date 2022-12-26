@@ -1,8 +1,6 @@
-def test_1(value, correct_value):
-    result = ''
-    if value == correct_value:
+def test_1(value, corect_value):
+    result = 'Failed'
+    if value == corect_value:
         result = 'Passed'
-    else:
-        result = 'Failed'
 
     return result
