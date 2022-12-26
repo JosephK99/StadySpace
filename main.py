@@ -3,5 +3,6 @@ import test
 def print_massage(massage):
     print(f'The massage is {massage}')
 
-print_massage(test.test_1(1, 1))
 
+if __name__ == '__main__':
+    print_massage('massage')
